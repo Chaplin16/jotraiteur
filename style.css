@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100% !important;
+  font-size: 1.2rem;
+  min-height: 100% !important;
+}
+
+.color {
+  color: #cf1111;
+  background-color: #cf1111;
+}
+
+.navbar {
+  z-index: 5;
+}
+.navbar .navbar-brand {
+  font-size: 2rem !important;
+}
+
+.phone {
+  position: fixed;
+  padding-top: 4rem;
+  border-color: #cf1111 !important;
+  z-index: 1;
+}
+
+h1 {
+  max-width: 80%;
+  padding-top: 9rem !important;
+}
+
+.images {
+  max-width: 90%;
+}
+.images img {
+  box-shadow: 1px 1px 3px #cf1111;
+}
+
+.footer {
+  line-height: 1.1rem;
+}
+
+@media all and (max-width: 992px) {
+  .nav-link {
+    padding-left: 1rem !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

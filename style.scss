@@ -1,0 +1,48 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    width:100%; 
+    max-width: 100%!important;
+    font-size: 1.2rem;
+    min-height: 100%!important;
+}
+
+$color--main: rgb(207, 17, 17);
+.color{
+    color: $color--main;
+    background-color: $color--main;
+}
+
+.navbar{
+    z-index: 5;
+    & .navbar-brand{
+        font-size: 2rem!important;
+    }
+}
+
+.phone{
+    position: fixed;
+    padding-top: 4rem;
+    border-color: $color--main!important;
+    z-index:1;
+}
+
+h1{
+    max-width: 80%;
+    padding-top: 9rem!important;
+}
+.images {
+    max-width: 90%;
+    & img{
+        box-shadow:  1px 1px 3px $color--main;
+    }
+}
+.footer{
+    line-height: 1.1rem;
+}
+
+@media all and (max-width: 992px){
+    .nav-link{
+        padding-left: 1rem!important;
+    }
+}
