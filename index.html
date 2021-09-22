@@ -28,6 +28,7 @@
         <link rel="stylesheet" type="text/css" href="./js/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css"/>
         <script type="text/javascript" src="./js/slick/slick.js"></script>
+
         <link rel="stylesheet" href="style.css" />
         <title> Cuisine familiale à Vendargues, Joseph traiteur mariage, bapteme, méchouis, réception</title>
     </head>
@@ -74,27 +75,34 @@
                 <img class="w-50" src="images/viande-française-cuisine-familiale.jpg" alt="méchouis avec mouton ou porc/cochon par jo traiteur">
             </div>
             <div>
-                <h3 class="color bg-white ms-4 mb-0">Cuisine familiale</h3> 
+                <h3 class="color bg-white ms-4">Cuisine familiale</h3> 
                 <p class="ms-4"> à partir de 8 jusqu'à 300 personnes</p>
-                <h3 class="color  bg-white  ms-4 mb-0">Pour toutes les occasions</h3> 
-                <p class="ms-4">mariage, baptême, anniversaire, méchouis, départ à la retraite, réunion familiale, banquet... etc 
+                <h3 class="color  bg-white  ms-4">Pour toutes les occasions</h3> 
+                <p class="ms-4 me-5">
+                    mariage, baptême, anniversaire, méchouis, départ à la retraite, réunion familiale, banquet, réception ... etc 
+                </p>
+                <p class="ms-4">
+                    Se déplace dans un rayon de 50km autour de Vendargues
+                </p>
+                <p class="ms-4">
+                    Possibilité vaisselle
+                </p>
+                <p class="ms-4 me-5">
+                    Nombreuses spécialités culinaires typiques du languedoc-Roussillon et de l'Espagne mais pas que... buffet froid, apéro dinatoire...
+                </p>
+                <p class="ms-4">
+                    Prevenir en avance pour devis personnalisé
                 </p>
             </div>
-            <div>
-                <div class="card border bg-warning" style="width: 9rem;">
-                    <div class="card-body m-0 p-0">
-                      <h4 class="card-title color text-warning text-center rounded">Brasucade</h4>
-                      <p class="card-text fw-bolder">Moules parfumées sur plaque</p>
-                    </div>
-                </div>
+            <!-- CARD DISHES -->
+            <div class="d-flex flex-wrap justify-content-center mb-4 pt-3" id="card-dish">
+                <!-- insertion via index-card.js et dish.js-->
             </div>
-            
-
             <!-- CAROUSEL PHOTO -->
             <div class="row mx-auto my-auto justify-content-center mb-5">
                 <div id="recipeCarousel3" class="carousel slide " data-bs-ride="carousel">
                     <div class="carousel-slick firstCarousel overflow-hidden" role="listbox">
-                       <!-- insertion via index.js et mainDish.js-->
+                       <!-- insertion via index-carousel.js et mainDish.js-->
                     </div>
                 </div>
             </div>
@@ -103,29 +111,30 @@
         </main>
         <footer>
             <div class="footer w-100 d-flex justify-content-center align-items-center color">
-                <img class=" h-auto pt-3 pb-3 pe-3" src="images/etiquette-FR-kit-com.png"
+                <img class=" h-auto p-3" src="images/etiquette-FR-kit-com.png"
                     alt="site financé par le plan relance du gouvernement">
                 <div class="formality">
-                    <p class="copyright text-white fw-bolder text-center m-auto pt-3">
+                    <p class="copyright text-warning fw-bolder text-center m-auto pt-3">
                         © 2021 JOTRAITEUR. Tous droits réservés
                     </p>
                     <div class="d-flex align-items-center  pt-2 flex-column">
                         <img src="images/mermaidSmall.png" class="mermaid ms-2 h-auto" style="width:130px; height:auto"
                             alt="logo de la sirene d'aurore Creation Web" />
-                        <a class="text-decoration-none text-warning fw-bolder" href="https://aurorecreationweb.fr"> Aurore Creation Web </a>
-                        <a href="law.html" class="text-white fw-bolder text-decoration-none pb-2">Mentions légales</a>
+                        <a class="text-decoration-none text-white fw-bolder" href="https://aurorecreationweb.fr"> Aurore Creation Web </a>
+                        <a href="law.html" class="law text-warning fw-bolder text-decoration-none pb-2">Mentions légales</a>
                     </div>
                 </div>
             </div>
         </footer>
+        <script src="js/dish.js"></script>
         <script src="js/mainDish.js"></script>
-        <script src="js/index.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js">
-        </script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-        </script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="js/index-carousel.js"></script>
+        <script src="js/index-card.js"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
   
   </body>
   

@@ -37,8 +37,18 @@ h1{
         box-shadow:  1px 1px 3px $color--main;
     }
 }
+
+.card-title{
+    height:6rem!important;
+}
+
 .footer{
     line-height: 1.1rem;
+    & .copyright,
+    & .law{
+        max-width:70%;
+        font-size: 0.8rem!important;
+    }
 }
 
 @media all and (max-width: 992px){
