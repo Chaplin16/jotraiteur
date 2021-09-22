@@ -3,55 +3,49 @@ function carousel(selector, data) {
     data.forEach(function(d) {
         element.innerHTML += `
         <div class="carousel-item ${d.id == 1 ? "active" : ""} m-auto"> 
-            <img src="${d.attachment}" alt="${d.alt}" style="width:auto; height:8rem">
+            <img src="${d.attachment}" alt="${d.alt}" style="width:auto; height:16rem">
         </div>` 
     })
 
 $(element).slick({
     centerMode: true,
     centerPadding: '1.5rem',
-    slidesToShow: 3,
+    slidesToShow: 5,
     adaptiveHeight: true,
-    speed:300,
+    speed:1000,
     dots:true,
-    autoplaySpeed:300,
-    responsive: [{
-            breakpoint: 1300,
-            settings: {
-                arrows: true,
-                centerMode: true,
-                centerPadding: '1rem',
-                slidesToShow: 3
-            }
-       },
+    autoplay:true,
+    autoplaySpeed:1200,
+    arrows: true,
+    infinite: true,
+    responsive: [
+  
         {
-            breakpoint: 1000,
+            breakpoint: 1500,
             settings: {
-                arrows: true,
-                centerMode: true,
-                centerPadding: '1rem',
-                slidesToShow: 2
+                centerPadding: '40px',
+                slidesToShow: 4
             }
         },
         {
-            breakpoint: 768,
+            breakpoint: 1300,
             settings: {
-                arrows: true,
-                centerMode: true,
-                centerPadding: '20px',
-                slidesToShow: 1.3
+                centerPadding: '30px',
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 900,
+            settings: {
+                centerPadding: '40px',
+                slidesToShow: 2
             }
         },
         {
             breakpoint: 550,
             settings: {
-                arrows: true,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 2,
-                speed:300,
-                dots:true,
-                autoplaySpeed:300,
+                centerPadding: '55px',
+                slidesToShow: 1
             }
         }
      ]

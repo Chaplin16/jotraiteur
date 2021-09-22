@@ -30,6 +30,13 @@ $color--main: rgb(206, 11, 11);
 h1{
     max-width: 80%;
     padding-top: 9rem!important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text{
+    text-align: justify;
+    text-align-last: center;
+    margin: 2rem ;
 }
 .images {
     max-width: 90%;
