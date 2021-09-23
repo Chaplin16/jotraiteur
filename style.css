@@ -15,7 +15,7 @@ html {
   z-index: 5;
 }
 .navbar .navbar-brand {
-  font-size: 1.8rem !important;
+  font-size: 1.8rem;
 }
 .navbar .nav-link {
   padding-left: 1rem !important;
@@ -62,15 +62,9 @@ h1 {
   color: #ffd700;
 }
 
-@media all and (max-width: 301px) {
-  .card {
-    width: 6rem !important;
-    margin-right: 0 !important;
-  }
-}
 @media all and (max-width: 350px) {
   #card-dish .card {
-    width: 7rem !important;
+    width: 6.5rem !important;
   }
 
   .navbar .navbar-brand {
@@ -79,7 +73,7 @@ h1 {
 }
 @media all and (max-width: 400px) {
   .navbar .navbar-brand {
-    font-size: 1.2rem !important;
+    font-size: 1.2rem;
   }
   .navbar .navbar-toggler {
     padding: 3px 8px !important;
