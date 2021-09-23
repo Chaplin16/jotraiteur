@@ -46,6 +46,12 @@ const comments = [
         comment: "Joseph est un super traiteur, franchement! il connaît très bien son métier, faites lui confiance, vous vous régalerez",
         author:"Jean-Paul",
         town:"Castries" 
-    }
+    },
+    {
+        id: 9,
+        comment: "Un délice pour les yeux et les papilles...",
+        author:"Valérie",
+        town:"Aigues-Mortes" 
+    },
 
 ]
