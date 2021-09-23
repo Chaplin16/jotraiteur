@@ -8,7 +8,7 @@ function carousel(selector, data) {
     })
 
 $(element).slick({
-    centerMode: true,
+    centerMode: false,
     centerPadding: '1.5rem',
     slidesToShow: 5,
     adaptiveHeight: true,
@@ -42,10 +42,17 @@ $(element).slick({
             }
         },
         {
+            breakpoint: 700,
+            settings: {
+                centerPadding: '20px',
+                slidesToShow: 2
+            }
+        },
+        {
             breakpoint: 550,
             settings: {
-                centerPadding: '55px',
-                slidesToShow: 1
+                centerPadding: '0px',
+                slidesToShow: 1,
             }
         }
      ]
