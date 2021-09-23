@@ -11,7 +11,7 @@ const dish  = [
     },
     {
         id:3,
-        name: "Tagine",
+        name: "Tajine",
         description:"Poulet ou agneau"
     },
     {

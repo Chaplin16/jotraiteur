@@ -62,6 +62,13 @@ h1 {
   color: #ffd700;
 }
 
+.customers .card-body q, .customers .card-body p {
+  font-size: 1rem !important;
+}
+.customers .opinion {
+  max-width: 800px;
+}
+
 @media all and (max-width: 350px) {
   #card-dish .card {
     width: 6.5rem !important;
@@ -83,6 +90,10 @@ h1 {
   .card {
     width: 8rem !important;
     margin-right: 0 !important;
+  }
+
+  .customers .card {
+    width: 100% !important;
   }
 
   .card-title {

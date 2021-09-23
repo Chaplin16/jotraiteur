@@ -59,73 +59,25 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main class="customers">
             <!-- BANNNER PHONE -->
             <p class="phone fw-bolder ps-2 bg-warning pb-2 mt-2 w-100 color">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
                 </svg>
                 06.83.10.98.96
             </p>
             <h1 class="text-center m-auto fw-bolder color bg-white pb-3">
-                Cuisine familiale et typique du Sud
+                Avis Clients
             </h1>
-            <!-- PHOTOS BELOW TITLE-->
-            <div class="images d-flex flex-wrap mb-3 mt-2 p-1 m-auto border border-danger border-2 bg-warning rounded">
-                <img class="w-50" src="images/enorme-paella-fruits-de-mer.jpg" alt="paella aux fruits de mer pour les receptions et banquets">
-                <img class="w-50" src="images/viande-française-cuisine-familiale.jpg" alt="méchouis avec mouton ou porc/cochon par jo traiteur">
+            <!-- cards for customers'opinions -->
+            <div class="d-flex flex-wrap opinion m-auto" id="card-opinion">
+                <!-- insertion opinions by customersOpinions.js and comments.js -->
             </div>
-            <!-- TEXT -->
-            <div class="description ms-4 me-4 text-center">
-                <h2 class="color bg-white">Cuisine familiale</h2> 
-                <p> à partir de 8 jusqu'à 300 personnes</p>
-                <h2 class="color bg-white">Pour toutes les occasions</h2> 
-                <p>
-                    mariage, baptême, anniversaire, méchouis, départ à la retraite, réunion familiale, banquet, réception ... etc 
-                </p>
-                <p>
-                    <strong>Nombreuses spécialités culinaires typiques et traditionnelles</strong> du languedoc-Roussillon et de l'Espagne mais pas que... buffet froid, apéro dinatoire...
-                </p>
-                <p>
-                    Prevenir en avance pour devis personnalisé
-                </p>
-                <p>
-                    Se déplace dans un rayon de 50km autour de Vendargues
-                </p>
-                <p>
-                    Possibilité vaisselle
-                </p>
-            </div>
-            <!-- CARD DISHES -->
-            <div class="d-flex flex-wrap justify-content-center  pt-3" id="card-dish">
-                    <!-- insertion via index-card.js et dish.js-->
-            </div>
-            <p class=" lead text">  
-                Superbes, délicieux, plaisants à regarder, avec des ingrédients frais, un savoir-faire certain autant dans sa cuisine traditionnelle locale que dans l'organisation de gros banquets, <strong>Joseph est le traiteur dont on a besoin pour toutes les occasions, petites et grandes!</strong> 
-            </p>
-        
-            <!-- CAROUSEL PHOTO -->
-            <div class="row mx-auto my-auto justify-content-center mb-3">
-                <div id="recipeCarousel3" class="carousel slide " data-bs-ride="carousel">
-                    <div class="carousel-slick firstCarousel overflow-hidden" role="listbox">
-                        <!-- insertion via index-carousel.js et mainDish.js-->
-                    </div>
-                </div>
-            </div>
-            <!-- LAST SLOGAN BEFORE FOOTER -->
-            <div class="pb-3 text-center">
-                <p class="color bg-white fw-bolder  display-6 m-3 mb-1"> Essayez la cuisine de Joseph, c 'est l'adopter!</p>
-                <p class="fw-bolder ps-2 text-warning pb-2 mt-2 w-100 display-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                        class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                    </svg>
-                    06.83.10.98.96
-                </p>
-            </div>
+
+
         </main>
         <footer>
             <div class="footer w-100 d-flex justify-content-center align-items-center color flex-column">
@@ -144,16 +96,11 @@
                 </div>
             </div>
         </footer>
-        <script src="js/dish.js"></script>
-        <script src="js/mainDish.js"></script>
-        <script src="js/index-carousel.js"></script>
-        <script src="js/index-card.js"></script>
-    
+        <script src="js/comments.js"></script>
+        <script src="js/customersOpinions.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
+    </body>
   
-  </body>
-  
-  </html>
+    </html>
