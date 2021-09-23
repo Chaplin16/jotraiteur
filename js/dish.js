@@ -32,7 +32,7 @@ const dish  = [
     {
         id:7,
         name: "Gardianne de Taureau",
-        description:"Plat traditionnel camarguais "
+        description:"Plat traditionnel camarguais typique"
     },
     {
         id:8,

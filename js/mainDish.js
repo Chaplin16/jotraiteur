@@ -12,7 +12,7 @@ const mainDish = [
     {        
         id:3,
         attachment:"images/agneau-barbecue.jpg",
-        alt:"moutons à la broche lors d' un méchoui par Joseph Traiteur"
+        alt:"moutons à la broche par Joseph Traiteur, traditionnel et typique du sud"
     },
     {        
         id:4,
@@ -27,32 +27,32 @@ const mainDish = [
     {        
         id:6,
         attachment:"images/mechouis.jpg",
-        alt:"méchouis pour un banquet par Joseph Traiteur"
+        alt:"méchouis traditionel pour un banquet par Joseph Traiteur"
     },
     {        
         id:7,
         attachment:"images/brasucade-moules-crevettes.jpg",
-        alt:"brasucade ave moules et crevettes pour une réception, cuisine familiale par Joseph Traiteur"
+        alt:"brasucade avec moules et crevettes pour une réception, cuisine typique du sud"
     },
     {        
         id:8,
         attachment:"images/mechouis-mouton.jpg",
-        alt:"méchouis au mouton pour un banquet par Joseph Traiteur"
+        alt:"méchouis au mouton pour un banquet familial par Joseph Traiteur"
     },
     {        
         id:9,
         attachment:"images/mouton-barbecue-joseph-traiteur.jpg",
-        alt:"méchouis au mouton, repas familiale, par Joseph Traiteur"
+        alt:"traditionnel méchouis au mouton par Joseph Traiteur"
     },
     {        
         id:10,
         attachment:"images/maccaronnade-catalane.jpg",
-        alt:"maccaronnade à la catalane pour une reception, un  mariage ou un baptême par Joseph Traiteur"
+        alt:"maccaronnade à la catalane pour un mariage ou un baptême , typique de la région"
     },
     {        
         id:11,
         attachment:"images/viande-française-cuisine-familiale.jpg",
-        alt:"viande en méchouis, repas familiale, par Joseph Traiteur"
+        alt:"viande en méchouis, repas typique pour les banquets, les receptions"
     }
 
 ]

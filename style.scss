@@ -6,7 +6,7 @@ html{
     min-height: 100%!important;
 }
 
-$color--main: rgb(206, 11, 11);
+$color--main: rgb(190, 7, 7);
 .color{
     color: $color--main;
     background-color: $color--main;
@@ -48,12 +48,18 @@ h1{
     font-size: 1.3rem;
 }
 
+.shading{
+    text-shadow: 1px 2px 1px #000;
+    color:  #b22222;
+    
+}
+
 .footer{
     line-height: 1.1rem;
     & .copyright,
     & .law{
         max-width:60%;
-        font-size: 0.8rem!important;
+        font-size: 0.9rem!important;
     }
     a:hover{
         color: #000!important;
