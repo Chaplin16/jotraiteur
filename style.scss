@@ -63,14 +63,12 @@ h1{
 //LAW.HTML
 .return:hover{
     color:#ffd700;
-
 }
 
 // RESPONSIVE
-
 @media all and (max-width: 301px){
     .card{
-        width: 6rem!important;
+        width: 5.5rem!important;
         margin-right: 0!important;
     }
 }
@@ -80,7 +78,7 @@ h1{
         width: 7rem!important;
     }
     .navbar .navbar-brand {
-        font-size: 0.9rem!important;
+        font-size: 0.8rem!important;
     }
 }
 
