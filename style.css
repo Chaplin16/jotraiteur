@@ -65,7 +65,11 @@ h1 {
 
 @media all and (max-width: 350px) {
   #card-dish .card {
-    width: 7rem !important;
+    width: 6rem !important;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 1rem !important;
   }
 }
 @media all and (max-width: 400px) {
