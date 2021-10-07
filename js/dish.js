@@ -32,7 +32,7 @@ const dish  = [
     {
         id:5,
         name: "Rouille de seiche",
-        description:"Spécialité sétoise, servie avec de l'aioli"
+        description:"Spécialité sétoise. Rouille aillée servie avec du riz ou pomme de terre"
     },
     {
         id:6,
